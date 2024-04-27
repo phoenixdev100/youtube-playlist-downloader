@@ -1,0 +1,387 @@
+﻿9.24:
+- Fixed videos not downloading (Thanks cristianst85)
+
+
+Version 1.9.23:
+- Fixed Cookie error
+
+
+Version 1.9.22:
+- Updated libraries
+
+
+Version 1.9.21:
+- Updated libraries
+
+
+Version 1.9.20:
+- Fixed a bug where some videos would only download the audio part if mp4 is selected
+- Updated libraries
+
+
+Version 1.9.19:
+- Added mp4 video support
+- Added YouTube shorts video support
+
+
+Version 1.9.18:
+- Fixed downloads not working
+
+
+Version 1.9.17:
+- Added Polish translation (Thanks Bartlomiej Szmolke)
+- Corrected some Turkish (Türkçe) translations (Thanks Alp Eren GENÇOĞLU) 
+
+
+Version 1.9.16:
+- Fixed "403 Forbidden" error on some videos
+
+
+Version 1.9.15:
+- Fixed some bugs when tagging YouTube auto-generated music
+
+
+Version 1.9.14:
+- Added support for tagging YouTube auto-generated music (Thanks zLeqitEclipse for this)
+
+
+Version 1.9.13:
+- Added copy to clipboard and save as text file buttons when download fails (Thanks Kazzymax for sponsoring this feature)
+- Fixed song cover picture not being added when converting
+
+
+Version 1.9.12:
+- It is now possible to select text in the error dialog when download fails
+- Added an option to skip files that are already downloaded (Thanks to revmods https://github.com/revmods)
+- Fixed downloading videos from users with underscores in their names
+
+
+Version 1.9.11:
+- Fixed "cannot access a closed stream"
+- Upgraded the program to use .NET 7
+- New folder browsing dialog
+
+
+Version 1.9.10:
+- Fixed downloads being very slow because of recent YouTube changes
+
+
+Version 1.9.9:
+- Added some animations and design improvements (Note: this update is just cosmetics, there are no new features)
+
+
+Version 1.9.8:
+- Fixed some file name pattern bugs
+
+
+Version 1.9.7:
+- Fixed handle urls (e.g youtube.com/@someone) not being parsed correctly
+
+
+Version 1.9.6:
+- Fixed a bug that caused some playlist info to not be loaded
+- Added a file name pattern option, check out the Help section to learn more about it
+
+
+Version 1.9.5:
+- Fixed a bug that caused some playlist info to not be loaded
+- Added a file name pattern option, check out the Help section to learn more about it
+
+
+Version 1.9.4:
+- The program will now download the highest quality thumbnail available
+- Added support for the new channel format (e.g. youtube.com/@username)
+
+
+Version 1.9.3:
+- Fixed some more full screen issues
+
+
+Version 1.9.2:
+- Fixed typos and the "About" button being out of screen when the program is maximized
+
+
+Version 1.9.1:
+- Fixed application being full screen when maximized
+
+
+Version 1.9:
+- Added a retry button when a download fails
+- Fixed a bug that switched the subsets options values
+- Updated libraries
+
+
+Version 1.8.31:
+- Updated libraries
+
+
+Version 1.8.30:
+- Pasting/dropping text into the bulk download text box will now add a new line automatically
+- Fixed videos with the same titles overwriting each other
+
+
+Version 1.8.29:
+- Fixed downloading channels not being saved into seperate directories
+
+
+Version 1.8.28:
+- Fixed slow downloads caused by youtube's throttling
+- Updated libraries
+
+
+Version 1.8.27:
+- Updated libaries
+
+
+Version 1.8.26:
+- Updated libaries
+
+
+Version 1.8.25:
+- Fixed 404 issues
+- Updated libaries
+
+
+Version 1.8.24:
+- Fixed downloading videos not working due to some new cookies youtube added
+
+
+Version 1.8.23:
+- Fixed playlists not loading more than 100 videos
+- Updated Italian translation
+Note: subscriptions no longer work, this have nothing to do with this update, they are not working because of some changes youtube made
+
+
+Version 1.8.22:
+- Fixed playlists not working
+﻿
+
+Version 1.8.21:
+- Added Arabic (العربية) translation, thanks to Ahmed Waaer
+- Updated French translation
+
+
+Version 1.8.20:
+- Updated libraries, this should improve the stability of the program
+
+
+Version 1.8.19:
+- Bug fixes
+
+
+Version 1.8.18:
+- Changed to a new version format
+- Added french translation (thanks Elta)
+- Updated libraries
+
+
+Version 1.8.17:
+- Updated libraries
+
+
+Version 1.8.15:
+- Fixed "Could not find signature decipherer definition body" error
+
+
+Version 1.8.14:
+- Added filtering to the subscriptions page too
+
+
+Version 1.8.13:
+- Added filtering videos by duration
+- Updated libraries
+- Fixed a bug that caused download settings to not be saved
+
+
+Version 1.8.12:
+- Added filtering videos by duration
+- Updated libraries
+
+
+Version 1.8.11:
+- Updated libraries, this might fix or break a lot of things. If something doesn't work properly, please let me know
+
+
+Version 1.8.10:
+- Fixed error 403 on some videos
+
+
+Version 1.8.9:
+- Added support for 32 bit based systems
+
+
+Version 1.8.8:
+- Fixed a bug that caused downloaded videos to not be copied to the output directory
+- Added more error information to help analyze errors better
+
+
+Version 1.8.7:
+- Fixed "Sequence contains no elements" bug
+
+
+Version 1.8.6:
+- Fixed a bug that occured when converting audio files to opus format that caused the first second to be skipped
+- Added an option to not tag audio files
+- Opus files will not be tagged anymore because of the bug mentioned above
+
+
+Version 1.8.5:
+- Fixed a bug that caused age restricted videos to fail downloading
+
+
+Version 1.8.4:
+- Fixed "Video is unavailable" issue
+
+
+Version 1.8.3:
+- Updated Italian translation
+- Fixed "Value cannot be null. Parameter name: value" error
+
+
+Version 1.8.2:
+- Fixed "Could not find signature decipherer function name" error
+
+
+Version 1.8.1:
+- Fixed a bug that caused the program to crash if you clicked on "Open Destination Folder" after everything was downloaded
+
+
+Version 1.8:
+- Re-added playlists subsets
+- Added option to confirm program exit
+- Added option to open destination folder when downloads finish
+- Some minor bug fixes as well
+
+
+Version 1.7.8:
+- Fixed a bug that caused the program to not download anything
+- Added Deutsch translation
+
+Known issues: 
+- The program might sometimes not retrive all videos in a playlist, a fix will be released as soon as possible for this.
+
+
+Version 1.7.7:
+- Fixed a bug that caused the program to think it had more files to convert when it had 0 files to convert
+- Reworked the settings page a little
+- You can now save every playlist in a unique folder
+- Fixed subtitles not downloading
+
+Known issues: 
+- The download speed indicator isn't accurate sometimes
+
+
+Version 1.7.5:
+- Fixed the program not working at all
+
+
+Version 1.7.4:
+- Fixed the program not working at all
+Sorry for the long wait, im only home at weekends :(
+
+
+Version 1.7.3:
+- Added Español translation
+- Fixed a bug that caused the program to now show the correct amount of conversions being made
+
+
+Version 1.7.2:
+- Added Türkçe translation
+- Critical bug fixed
+
+
+Version 1.7.1:
+- Added the ability to limit file conversions count, so the program will not use 100% cpu.
+An explanation about this feature is available at the Help page.
+
+
+Version 1.7:
+- You can now bulk download videos (paste multiple links). This supports everything, a mix of playlists, channels and single videos.
+- Fixed "Add to queue" sending you to the video screen instead of downloading in the background
+
+
+Version 1.6.1:
+- Made the program more stable and faster
+
+
+Version 1.6.2:
+- Fixed download settings sometimes not being saved
+- Fixed download page sometimes not showing that it finished downloading a video
+
+
+Version 1.6.1:
+THIS VERSION FIXES A BUG THAT CAUSED THE PROGRAM TO NOT WORK
+
+
+Version 1.6:
+THIS VERSION FIXES A BUG THAT CAUSED THE PROGRAM TO NOT WORK
+- Added the ability to download closed captions to videos
+- Slight redesign of the download settings UI
+
+
+Version 1.5: 
+- You can now queue downloads and download multiple items in the background
+- The download speed indicator is now accurate
+- New language available, Brazilian Portuguese, thanks to Jhonatan Lima (Heremitus)
+- Many performance improvemets, especially memory-wise
+
+
+﻿Version 1.4: 
+- You can now save your download settings
+- Added a download speed indicator
+- 2 new translations available: Chinese and Italian, big thanks to Dong Cunrui (董存瑞) and RichyZ99 for these translations.
+
+
+﻿Version 1.3.6:
+- Rewrote the buggy subscriptions system, the interface is exactly the same but the code behind is completly different
+- Polished the UI more, some performance improvements as well
+
+
+Version 1.3.3:
+- Fixed (hopefully) all the bugs with the new subscription system. 
+
+
+﻿Version 1.3.4:
+- Rewrote the buggy subscriptions system, the interface is exactly the same but the code behind is completly different
+- Polished the UI more, some performance improvements as well
+
+
+Version 1.3:
+- Subscriptions! You can now subscribe to channels to automatically download their new videos
+- More download options added; you can now download videos with higher fps rate than 30 and you can also choose to not convert audio to any format
+- A new help page that includes more information about the subscriptions system and how it works. There is also information about how to contact me
+
+
+Version 1.2.1:
+﻿- Added ability to download subsets of playlists (e.g. Download from video #3 until video #7)
+﻿- You can now click "Update when I exit" directly from the update dialog
+
+
+Version 1.1.3: 
+﻿- Fixed an app crash when "Update later" finished downloading
+- A new download mirror is now available, no more slow downloads from github servers!
+
+
+Version 1.1.2:
+﻿- Fixed a bug that happened when a user clicked on "Update when I exit" but the update didn't finish downloading
+
+
+Version 1.1.1:
+- Added "Check for updates" button in the About page, to manually check for updates
+
+
+Version 1.1: 
+- Changes to UI
+- Updated can now be run in the background and you don't have to wait until the update is finished downloading to use the program
+- Changed the default theme to Dark and default accent color to Red. This matches better with how YouTube looks
+- If some videos failed to download you will be notified now
+- Fixed some UI glitches that would occur when the application is started in full screen
+
+
+Version 1:
+﻿- Translation to Hebrew is now complete
+- "Update when I exit" now works as intended
+
+
+Version 0.9.2 (pre release):
+- The program will now check for updates when its opened

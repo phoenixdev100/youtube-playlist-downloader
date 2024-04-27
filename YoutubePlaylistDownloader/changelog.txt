@@ -1,0 +1,2 @@
+﻿Version 1.9.24:
+- Fixed videos not downloading (Thanks cristianst85)

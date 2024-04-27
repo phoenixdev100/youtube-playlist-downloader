@@ -1,0 +1,80 @@
+﻿<Controls:MetroWindow x:Class="YoutubePlaylistDownloader.Skeleton"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+                      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Dialog="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+                      MinWidth="1280"
+                      MinHeight="720"
+                      Width="1280"
+                      Height="720"
+                      x:Name="SkeletonWindow"
+                      GlowBrush="White"
+                      BorderThickness="0"
+                      Title="{DynamicResource Title}"
+                      FlowDirection="{DynamicResource FlowDirection}">
+
+    <Controls:MetroWindow.Flyouts>
+        <Controls:FlyoutsControl>
+            <Controls:Flyout IsPinned="False" HorizontalAlignment="Left" VerticalAlignment="Top" Header="" x:Name="DefaultFlyout" Position="Left" Width="Auto">
+                <Controls:TransitioningContentControl HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" x:Name="DefaultFlyoutUserControl" />
+            </Controls:Flyout>
+        </Controls:FlyoutsControl>
+    </Controls:MetroWindow.Flyouts>
+
+
+
+
+    <!--Set all the UI in 1 UserControl with this window being the skeleton-->
+    <Grid VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Controls:TransitioningContentControl Grid.Row="0" Height="Auto" HorizontalAlignment="Center" DockPanel.Dock="Top" x:Name="CurrentPage" Margin="0,15,0,0" Transition="Default" />
+
+        <Grid Grid.Row="1" VerticalAlignment="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <WrapPanel Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" DockPanel.Dock="Left" VerticalAlignment="Bottom">
+                <Controls:Tile Click="Settings_Click" x:Name="SettingsButton" Height="50" Width="Auto" Margin="5,5,5,5" VerticalAlignment="Bottom" >
+                    <WrapPanel>
+                        <iconPacks:PackIconModern Width="40" Margin="5" Height="40" Kind="Settings" />
+                        <TextBlock Text="{DynamicResource Settings}" VerticalAlignment="Center" FontSize="24" Margin="2.5,5,7.5,5" />
+                    </WrapPanel>
+                </Controls:Tile>
+            </WrapPanel>
+
+            <Controls:Tile Click="Home_Click" x:Name="HomeButton" Grid.Column="1" Height="50" Width="Auto" Margin="5,5,5,5" DockPanel.Dock="Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                <WrapPanel>
+                    <iconPacks:PackIconModern Width="40" Margin="5" Height="40" Kind="Home" />
+                    <TextBlock Text="{DynamicResource Home}" VerticalAlignment="Center" FontSize="24" Margin="2.5,5,7.5,5" />
+                </WrapPanel>
+            </Controls:Tile>
+
+            <WrapPanel Grid.Column="2" Grid.Row="0" HorizontalAlignment="Right" DockPanel.Dock="Right" VerticalAlignment="Bottom">
+                <Controls:Tile Click="Help_Click" x:Name="HelpButton" Height="50" Width="Auto" Margin="5,5,5,5">
+                    <WrapPanel>
+                        <iconPacks:PackIconModern Width="40" Margin="5" Height="40" Kind="BookPerspectiveHelp" />
+                        <TextBlock Text="{DynamicResource Help}" VerticalAlignment="Center" FontSize="24" Margin="2.5,5,7.5,5" />
+                    </WrapPanel>
+                </Controls:Tile>
+                <Controls:Tile Click="About_Click" x:Name="AboutButton" Height="50" Width="Auto" Margin="5,5,5,5" >
+                    <WrapPanel>
+                        <iconPacks:PackIconModern Width="40" Margin="5" Height="40" Kind="AppPlus" />
+                        <TextBlock Text="{DynamicResource About}" VerticalAlignment="Center" FontSize="24" Margin="2.5,5,7.5,5" />
+                    </WrapPanel>
+                </Controls:Tile>
+            </WrapPanel>
+        </Grid>
+    </Grid>
+
+</Controls:MetroWindow>
