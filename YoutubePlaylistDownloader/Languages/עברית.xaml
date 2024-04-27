@@ -1,0 +1,179 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib"
+                    xml:space="preserve">
+    
+    <s:String x:Key="Title">הורדת פליילסט מיוטיוב</s:String>
+    <FlowDirection x:Key="FlowDirection">RightToLeft</FlowDirection>
+    <s:String x:Key="InsertYoutubePlaylistLinkHere">הכנס קישור פלייליסט כאן</s:String>
+    <s:String x:Key="Exit">יציאה</s:String>
+    <s:String x:Key="ExitMessage">האם אתה בטוח שאתה רוצה לצאת?</s:String>
+    <s:String x:Key="Yes">כן</s:String>
+    <s:String x:Key="No">לא</s:String>
+    <s:String x:Key="Error">שגיאה</s:String>
+    <s:String x:Key="ErrorMessage">אירעה שגיאה בלתי צפויה במהלך ביצוע הפעולה, פנה למנהל המערכת כדי לטפל בשגיאה</s:String>
+    <s:String x:Key="Settings">הגדרות</s:String>
+    <s:String x:Key="Preferences">העדפות</s:String>
+    <s:String x:Key="Theme">ערכת נושא</s:String>
+    <s:String x:Key="Language">שפה</s:String>
+    <s:String x:Key="Back">חזרה</s:String>
+    <s:String x:Key="DarkTheme">מצב לילה</s:String>
+    <s:String x:Key="Name">שם: </s:String>
+    <s:String x:Key="Description">תיאור: </s:String>
+    <s:String x:Key="Views">צפיות: </s:String>
+    <s:String x:Key="SaveDirectory">שמור סרטונים למיקום: </s:String>
+    <s:String x:Key="CurrentlyDownloading">כרגע מוריד: </s:String>
+    <s:String x:Key="TotalProgress">סך הכל הורדות: </s:String>
+    <s:String x:Key="AllDone">הכל בוצע</s:String>
+    <s:String x:Key="Canceling">מבטל את ההורדת, אנא המתן..</s:String>
+    <s:String x:Key="Videos">סרטונים</s:String>
+    <s:String x:Key="Download">הורד</s:String>
+    <s:String x:Key="ConvertToMp3">המר את הסרטונים ל </s:String>
+    <s:String x:Key="SaveVideoFormat">שמור סרטונים בפורמט </s:String>
+    <s:String x:Key="StillConverting">עדיין ממיר</s:String>
+    <s:String x:Key="files">קבצים</s:String>
+    <s:String x:Key="Author">בעלים: </s:String>
+    <s:String x:Key="PlaylistTitle">כותרת: </s:String>
+    <s:String x:Key="Loading">טוען..</s:String>
+    <HorizontalAlignment x:Key="LeftAlignment">Left</HorizontalAlignment>
+    <s:String x:Key="About">אודות</s:String>
+    <s:String x:Key="Home">בית</s:String>
+    <s:String x:Key="Prefer">העדף סרטונים ברזולוציה </s:String>
+    <s:String x:Key="AreYouSureExit">האם אתה בטוח שברצונך לצאת?</s:String>
+    <s:String x:Key="TotalVideos">כמות סרטונים: </s:String>
+    <s:String x:Key="AboutTheProgram">תוכנית זו פותחה על ידי shaked6540 והיא חופשית לחלוטין לשימוש ללא הגבלה.
+עם זאת, אינני אחראי לכל בעיה משפטית שתכנית זו תגרום לך,
+עד כמה שידוע לי, YouTube אינו מתיר הורדת סרטונים מהאתר שלהם. 
+קוד המקור המלא של התכונה זמין בלינק הבא: https://github.com/shaked6540/YoutubePlaylistDownloader
+    
+ההתקנה נוצרה בעזרת Inno Setup (http://www.jrsoftware.org/isinfo.php)
+
+
+YouTube Playlist Downloader v</s:String>
+    <s:String x:Key="SaveAndBackToDownload">שמור וחזור לתפריט הראשי</s:String>
+    <s:String x:Key="BitRate">קבע את קצב הביטים ל</s:String>
+        <s:String x:Key="NewVersionAvailable">גרסה חדשה זמינה</s:String>
+    <s:String x:Key="DoYouWantToUpdate">גרסה חדשה זמינה, האם אתה רוצה לעדכן?
+הנה מה שחדש: </s:String>
+    <s:String x:Key="DownloadingUpdateSetup">כרגע מוריד: Update Setup</s:String>
+    <s:String x:Key="UpdateCancelled">העדכון בוטל.</s:String>
+    <s:String x:Key="ErrorWhileUpdating">אירעה שגיאה בעת הורדת קובץ העדכון, וודא כי אתה מחובר לאינטרנט
+אם אתה מחובר לאינטרנט, נסה שוב מאוחר יותר או בדוק באתר https://github.com/shaked6540/YoutubePlaylistDownloader/issues כדי לבדוק אם יש תקלות בשרת ההורדה</s:String>
+    <s:String x:Key="UpdateComplete">ההורדה הושלמה</s:String>
+    <s:String x:Key="UpdateWhenIExit">עדכן אחרי שאני יוצא</s:String>
+    <s:String x:Key="UpdateAndExit">סגור את התוכנה ועדכן עכשיו</s:String>
+    <s:String x:Key="UpdateFailed">העדכון נכשל</s:String>
+    <s:String x:Key="CannotUpdate">לא ניתן לעדכן בשלב זה, נסה להפעיל מחדש את האפליקציה ולוודא שאתה מחובר לאינטרנט.
+הודעת שגיאה: </s:String>
+    <s:String x:Key="CouldntDownload">לא ניתן היה להוריד סרטונים מסוימים</s:String>
+    <s:String x:Key="ListOfNotDownloadedVideos">הנה רשימה של סרטונים שלא ניתן להוריד, והסיבה לכך: </s:String>
+    <s:String x:Key="Options">אפשרויות</s:String>
+        <s:String x:Key="CheckForUpdates">בדוק אם קיים עדכון</s:String>
+    <s:String x:Key="NoUpdates">אין עדכונים זמינים</s:String>
+    <s:String x:Key="NoUpdatesAvailable">אין עדכונים זמינים כרגע, יש לך את הגרסה העדכנית ביותר.</s:String>
+    <s:String x:Key="PlaylistIndex">הורד מסרטון מספר </s:String>
+    <s:String x:Key="UntilIndex">עד סרטון מספר </s:String>
+    <s:String x:Key="LeaveEmptyOrZeroForUntilTheEnd">(השאר ריק או הזן 0 כדי להוריד את כל הסרטונים עד סוף הרשימה)</s:String>
+    <s:String x:Key="NoVideosToDownload">לא ניתן למצוא סרטונים להורדה</s:String>
+    <s:String x:Key="ThereAreNoVideosToDownload">אין סרטונים להורדה עם הפרמטרים שציינת</s:String>
+    <s:String x:Key="UpdateNow">עדכן עכשיו</s:String>
+    <s:String x:Key="Subscriptions">הרשמות</s:String>
+    <s:String x:Key="AutomaticllyDownloadSubscriptions">הורד באופן אוטומטי סרטונים חדשים מערוצים אלה</s:String>
+    <s:String x:Key="InsertChannelLink">הכנס קישור לערוץ כאן</s:String>
+    <s:String x:Key="Remove">הסר</s:String>
+    <s:String x:Key="Id">מזהה: </s:String>
+    <s:String x:Key="Save">שמור</s:String>
+    <s:String x:Key="PreferFPS">העדף סרטונים עם שיעור FPS הגבוה ביותר</s:String>
+    <s:String x:Key="AudioOnly">הורד אודיו נקי, מבלי להמיר לכל פורמט</s:String>
+    <s:String x:Key="StillDownloadingSubscriptionsExit">התוכנית עדיין מוריד את סרטוני המנויים שלך, לחיצה על כן תסגור את התוכנית וסרטונים אלו לא יורדו עד שתפתח מחדש את התוכנית.
+אתה בטוח שאתה רוצה לצאת?</s:String>
+    <s:String x:Key="LastVideoDownloadDate">עודכן לאחרונה: </s:String>
+    <s:String x:Key="Help">עזרה</s:String>
+    <s:String x:Key="SubscriptionsHelp">המנויים הם ערוצים שהתוכנה תוריד באופן אוטומטי כל סרטון שיופיע לאחר הוספת המינוי
+        
+לדוגמה, אם הוספת מנוי לערוץ "x" ב -1 בספטמבר והערוץ "x" העלה סרטון ב -2 בספטמבר, הוא יוריד באופן אוטומטי.
+        
+הסרטונים הקודמים לא יורדו, וסרטונים לא יורדו פעמיים גם אם תמחק סרטון מסוים.
+        
+כל המינויים ניתנים להתאמה אישית ויש להם הגדרות משלהם, כדי לגשת להגדרות המנויים ללחוץ על "הרשמות" מהתפריט הראשי ולאחר מכן ללחוץ על "הגדרות" עבור הערוץ הרצוי
+שים לב שאם התוכנית אינה פועלת, לא יורדו סרטונים חדשים
+    </s:String>
+    <s:String x:Key="ContactTheDeveloper">צור קשר</s:String>
+    <s:String x:Key="ContactTheDeveloperHelp">ישנן מספר דרכים ליצור עמנו קשר (shaked6540):
+        
+הראשונה היא Reddit, פשוט לשלוח לי הודעה ב Reddit ואני יגיב ברגע שאני יכול, זה קישור הפרופיל שלי: https://www.reddit.com/user/shaked6540/
+        
+הדרך השלישית ליצור איתי קשר היא באמצעות GitHub, פשוט לפתוח בעיה חדשה ואני אנסה להגיב בהקדם האפשרי, הנה קישור: https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+    <s:String x:Key="AutomaticallyCheckForUpdates">חפש אוטומטית עדכונים כאשר אני מפעיל את התוכנית</s:String>
+    <s:String x:Key="WhatsNew">מה חדש?</s:String>
+    <s:String x:Key="SubscriptionsUpdateDelay">עדכן הרשמות כל</s:String>
+    <s:String x:Key="Minutes">דקות</s:String>
+    <s:String x:Key="SaveDownloadOptions">שמור את העדפות ההורדה</s:String>
+    <s:String x:Key="DownloadSpeed">מהירות הורדה: </s:String>
+    <s:String x:Key="Changelog">יומן שינויים</s:String>
+    <s:String x:Key="CreditsAndContributors">Many thanks to these people for translating this software: 
+Dong Cunrui (董存瑞)
+RichyZ99
+Jhonatan Lima (Heremitus)
+İskender ALPSAKARYA, Alp Eren GENÇOĞLU (Türkçe)
+Luis Duenas (Español)
+Stephan Komov (Deutsch)
+Elta (Français)
+Ahmed Waaer (Arabic)
+Bartlomiej Szmolke (Polski) 
+Timofey Dedov (Русский) 
+</s:String>
+    <s:String x:Key="Search">חיפוש</s:String>
+    <s:String x:Key="Queue">רשימה</s:String>
+    <s:String x:Key="Downloading">מוריד..</s:String>
+    <s:String x:Key="Converting">ממיר..</s:String>
+    <s:String x:Key="DownloadInBackground">הוסף לרשימה</s:String>
+    <s:String x:Key="Audio">אודיו</s:String>
+    <s:String x:Key="Video">וידאו</s:String>
+    <s:String x:Key="DownloadCaptions">הורד כתוביות</s:String>
+    <s:String x:Key="CaptionsLanguage">שפת כתוביות: </s:String>
+    <s:String x:Key="BulkDownload">הורדה מרובה</s:String>
+    <s:String x:Key="LimitConverstions" >קבע את מספר ההמרות המקסימלי ל </s:String>
+    <s:String x:Key="ValueChangeRequiresRestart">(enabling the limit requires a 
+program restart to take effect)</s:String>
+    <s:String x:Key="ConversionsLimitingExplanation">Every file conversion takes about 1 core completely. For example: if you have a 4
+cores cpu, limiting the program to 3 file conversions at a time will use 3 cores
+out of 4; in Task Manager you will see that the program uses a little more than 75% cpu.
+It is recommended to use 1 less core than what your cpu have. If your cpu have 4 cores,
+use 3 cores by limiting the file conversion to 3, if you have 3 cores, use 2 cores by limiting
+the file conversion to 2, etc..</s:String>
+    <s:String x:Key="FileConversion">המרת קבצים</s:String>
+    <s:String x:Key="General">כללי</s:String>
+    <s:String x:Key="SavePlaylistInUniqueDirectory">שמור כל פלייליסט לתיקייה נפרדת</s:String>
+    <s:String x:Key="Playlist">פליילסט</s:String>
+    <s:String x:Key="OpenDestinationFolder">הראה בתיקייה</s:String>
+    <s:String x:Key="ConfirmExit">שאל האם אני בטוח שאני רוצה לצאת</s:String>
+    <s:String x:Key="OpenDestinationFolderOnFinish">פתח תייקיה בסיום ההורדה</s:String>
+    <s:String x:Key="TagAudioFile">הוסף תגים ותמונת רקע לקבצי אודיו</s:String>
+    <s:String x:Key="Than">מ-</s:String>
+    <s:String x:Key="Filter">סינון</s:String>
+    <s:String x:Key="DownloadFilter">הורד רק סרטונים</s:String>
+    <s:String x:Key="Longer">ארוכים</s:String>
+    <s:String x:Key="Shorter">קצרים</s:String>
+    <s:String x:Key="FileDoesNotExist">{0} לא קיים.</s:String>
+    <s:String x:Key="Retry">נסה שוב</s:String>
+    <s:String x:Key="Of">מתוך</s:String>
+    <s:String x:Key="FileNamePattern">תבנית שם קובץ: </s:String>
+    <s:String x:Key="ResetToDefault">ברירת מחדל</s:String>
+    <s:String x:Key="FileNamePatternTitle">תבנית שם קובץ</s:String>
+    <s:String x:Key="SkipExisting">דלג על קבצים קיימים</s:String>
+    <s:String x:Key="FileNamePattenExplanation">The file name pattern allows you to give the downloaded files dynamic names based on these parameters:
+$title: The title of the video
+$index: The index of the video in the playlist
+$artist: The name of the artist of the song (if applicable)
+$songtitle: The title of the song
+$channel: The name of the channel that uploaded the video
+$videoid: The unique ID of the video (taken from the video url)
+$playlist: The title of the plyalist
+
+So for example, if my file name pattern is "song: [$playlist] $artist - $songtitle ($channel) $index" the result file name would be "song: [Example] Infected Mushroom - Spitfire (Monstercat) 1"
+You can add any other text between the parameters, only the parameters will be replaced.
+Please note that not all the parameters are always available (for example, when downloading a single video the $playlisttitle variable would not be available), and in case they are missing they will be removed from the file name</s:String>
+    <s:String x:Key="CopyToClipboard">העתק</s:String>
+    <s:String x:Key="SaveToTextFile">שמור לקובץ</s:String>
+</ResourceDictionary>
